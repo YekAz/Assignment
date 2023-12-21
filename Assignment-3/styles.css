@@ -300,10 +300,8 @@ hr {
     margin-bottom: 15px;
     border-radius: 5px;
     background: #038E7D;
-
-    width: 534px;
+    width: 521px;
     height: 52px;
-
     color: #FFF;
     text-align: center;
     font-family: Lato, sans-serif;
@@ -318,7 +316,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-inline-start: 95px; */
     margin-block-end: 15px;
 
     .round {
@@ -376,34 +373,77 @@ hr {
     background: #1179BF;
 
     > h3 {
-        font-size: 16px;
-
+        color: #FFF;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.01px;
     }
 
     > .price-tag {
         margin-block: 15px;
         display: flex;
         /* justify-content: center; */
-        /* align-items: center; */
+        align-items: center;
+        /* border: 1px solid red; */
+        /* height: 172px; */
         
         > .super {
             font-size: 10px;
             align-self: flex-start;
+
+            color: #FFF;
+            font-family: Lato;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.015px;
+            margin-top: 20px;
         }
 
         > .num {
-            font-size: 35px;
+            color: #FFF;
+            font-family: Lato;
+            font-size: 75px;
+            /* font-style: normal; */
+            /* font-weight: 200; */
+            line-height: normal;
+            letter-spacing: -0.015px;
+            margin-inline-start: 10px;
+            margin-inline-end: 10px;
+            
         }
 
         > .year {
-            font-size: 10px;
+            /* font-size: 10px; */
             align-self: flex-end;
-        }
+            margin-bottom: 10px;
+
+            color: #FFF;
+            font-family: Lato;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: normal;
+            letter-spacing: -0.015px;
+        } 
     }
 
     > .auto {
-        font-size: 15px;
+        
+        width: 229px;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 19px;
         font-style: italic;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.008px;
+        padding-right: 29px;
+        margin-bottom: 45px;
     }
 }
 
@@ -418,15 +458,87 @@ hr {
         margin-block-end: 16px;
         /* justify-content: center; */
         align-items: center;
-        font-size: 13px;
+        font-size: 13px;     
+    }
+
+    > .point {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.008px;
 
         
     }
+
+
 }
 
-.blue-side p {
-    font-size: large;
+.pt-5 {
+    color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.008px;
 }
+
+.blue-side .need {
+    font-size: large;
+    color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.008px;
+/* margin-bottom: 20px; */
+}
+
+.bold {
+    color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.008px;
+}
+
+.blue-side a {
+    color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.008px;
+
+}
+
+.need {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.ref {
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-block: 30px;
+}
+
+blockquote {
+    margin-top: 30px;
+    font-style: italic;
+    
+
+}
+
 
 .photo {
     display: flex;
@@ -441,10 +553,6 @@ hr {
     width: 40px;
     border-radius: 50%;
 }
-
-
-
-
 
 
 /* footer styling */
