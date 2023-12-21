@@ -9,9 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     padding: 15px;
-    background-color: #F5F8FA;
-    /* height: 100vh; */
-    
+    background-color: #F5F8FA;    
 }
 
 nav {
@@ -72,17 +70,7 @@ nav {
 .container {
     display: flex;
     margin: 85px auto auto auto;
-    /* position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    /* border: 1px solid red; */
-    /* width: 892px;
-    height: 795px; */
     width: 70%;
-    /* height: 85%; */
-    /* border: 1px solid grey; */
-    /* border-radius: 3px; */
     border-radius: 6px;
     background: #FFF;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
@@ -91,16 +79,11 @@ nav {
 
 .white-side {
     width: 67%;
-    /* width: fit-content; */
-    /* padding: 30px; */
-    /* border: 1px solid rgb(128, 124, 0); */
-    /* height: 100%; */
 
     > .checkout-container .white-side-heading {
         padding: 30px;
         width: 161px;
         height: 54px;
-        /* flex-shrink: 0; */
         color: #1D2C3C;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Lato;
@@ -108,14 +91,11 @@ nav {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        /* border-bottom: 2px soild red; */
     }
 
     > hr {
         background-color:#F5F7FA;;
         width: 100%;
-        /* margin-bottom: 20px; */
-        /* margin-top: ; */
     }
 }
 
@@ -165,10 +145,8 @@ nav {
     gap: 0;
 
     > .wrapper {
-        /* margin-inline-end: 0px; */
         margin-block: 10px;
         padding: 0 30px 0 30px;
-        /* border: 1px solid red; */
 
         > label {
             display: block;
@@ -359,16 +337,14 @@ hr {
 }
 
 
-
 /* styling for the right side starts here */
+
 
 .blue-side {
     width: 33%;
-    /* background-color: rgb(15, 137, 244); */
     color: white;
     padding: 40px;
     font-family: Lato, sans-serif;
-
     border-radius: 0px 6px 6px 0px;
     background: #1179BF;
 
@@ -385,15 +361,11 @@ hr {
     > .price-tag {
         margin-block: 15px;
         display: flex;
-        /* justify-content: center; */
         align-items: center;
-        /* border: 1px solid red; */
-        /* height: 172px; */
-        
+
         > .super {
             font-size: 10px;
             align-self: flex-start;
-
             color: #FFF;
             font-family: Lato;
             font-size: 24px;
@@ -408,8 +380,6 @@ hr {
             color: #FFF;
             font-family: Lato;
             font-size: 75px;
-            /* font-style: normal; */
-            /* font-weight: 200; */
             line-height: normal;
             letter-spacing: -0.015px;
             margin-inline-start: 10px;
@@ -418,10 +388,8 @@ hr {
         }
 
         > .year {
-            /* font-size: 10px; */
             align-self: flex-end;
             margin-bottom: 10px;
-
             color: #FFF;
             font-family: Lato;
             font-size: 25px;
@@ -432,8 +400,7 @@ hr {
         } 
     }
 
-    > .auto {
-        
+    > .auto {    
         width: 229px;
         color: #FFF;
         font-family: Lato;
@@ -443,20 +410,18 @@ hr {
         line-height: 24px; /* 150% */
         letter-spacing: -0.008px;
         padding-right: 29px;
-        margin-bottom: 45px;
+        margin-bottom: 35px;
     }
 }
 
 .points {
     margin-block: 15px;
-    /* border: 1px solid red; */
     font-size: 13px;
 
     > .point-flex {
         display: flex;
         gap: 11px;
         margin-block-end: 16px;
-        /* justify-content: center; */
         align-items: center;
         font-size: 13px;     
     }
@@ -467,56 +432,52 @@ hr {
         font-size: 25px;
         font-style: normal;
         font-weight: 700;
-        line-height: 24px; /* 150% */
-        letter-spacing: -0.008px;
-
-        
+        line-height: 24px;
+        letter-spacing: -0.008px;        
     }
-
-
 }
 
 .pt-5 {
     color: #FFF;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: -0.008px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.008px;
 }
 
 .blue-side .need {
     font-size: large;
     color: #FFF;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.008px;
-/* margin-bottom: 20px; */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.008px;
 }
 
 .bold {
     color: #FFF;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -0.008px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px;
 }
 
 .blue-side a {
     color: #FFF;
-font-family: Lato;
-font-size: 16px;
-font-style: italic;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -0.008px;
-
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px;
+    border-bottom: 2px solid #B9F5FF;
+    text-decoration: none;
 }
 
 .need {
@@ -535,8 +496,6 @@ hr {
 blockquote {
     margin-top: 30px;
     font-style: italic;
-    
-
 }
 
 
@@ -545,7 +504,6 @@ blockquote {
     align-items: center;
     gap: 15px;
     margin-block-start: 20px
-
 }
 
 .photo img {
